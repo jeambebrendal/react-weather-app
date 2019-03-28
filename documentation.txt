@@ -1,0 +1,16 @@
+1. Make sure to install Allow-Control-Allow-Origin plugin on Google Chrome
+2. In case the plugin will not work. Follow step 3.
+3. Open Chrome browser with web security being disabled
+On Windows
+-Open CMD and run...
+-chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+
+On Mac
+-Open Terminal and run...
+-open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security
+
+4. Install create-react-app boilerplate and create a React app
+5. Copy files inside the folder and run "npm start"
+
+
+<!-- Thank you -->
