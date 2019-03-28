@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+input:focus,
+button:focus {
+  outline: 0;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #10c9e0;
+}
+.weather-app {
+  padding: 20px;
+  overflow: auto;
+}
+.head {
+  text-align: center;
+}
+.head h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+form {
+  width: 80%;
+  margin: 50px auto;
+}
+form input {
+  padding: 0 10px;
+  border: 1px solid #00bcd4;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+form button {
+  font-weight: bold;
+  background-color: #00bcd4;
+  height: 40px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.location {
+  background-color: #ffc1072e;
+  padding: 10px 20px;
+}
+.location h1 {
+  font-size: 20px;
+}
+.location h1 > a {
+  color: #000;
+  text-decoration: none;
+}
+.location ul {
+  padding: 0;
+}
+.location ul > li {
+  list-style-type: none;
+}
+.location + .location {
+  margin-top: 3px;
+}
+.weather-info {
+  margin-bottom: 4rem;
+}
+.weather-info h2 {
+  color: #156e97;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.weather-info dt.hide {
+  display: none;
+}
+.weather-info dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.weather-info dd.icon {
+  margin-bottom: 10px;
+}
+.weather-info dd.icon > div,
+.weather-info dd.icon > span {
+  display: inline-block;
+}
+.weather-info dd.icon > span {
+  font-size: 13px;
+}
+.weather-info dd.icon > div > img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+@media only screen and (min-width: 650px) {
+  form input {
+    width: 70%;
+  }
+  form button {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  form input {
+    width: 100%;
+  }
+  form button {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .weather-info {
+    width: 16.66666667%;
+    float: left;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+  .weather-info {
+    width: 33.33333333%;
+    float: left;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .weather-info {
+    width: 50%;
+    float: left;
+  }
+}
